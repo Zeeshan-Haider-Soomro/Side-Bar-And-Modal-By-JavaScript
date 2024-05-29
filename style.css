@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-color: #30336b;
+    color: aliceblue;
+}
+.toggle{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+}
+.toggle img{
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+.modal{
+    height: 500px;
+    width: 400px;
+    background-color: #30336b;
+    border: 1px solid black;
+}
