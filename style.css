@@ -3,6 +3,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.navbar{
+    background-color: #30336b;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 200px;
+    border-right: 1px solid rgb(160, 160, 160);   
+}
+.menuBar{
+    width: 100%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 15px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#sideBar{
+    display: none;
+    cursor: pointer;
+}
+
 .banner{
     background-color: #30336b;
     color: aliceblue;
@@ -13,15 +47,39 @@
     align-items: start;
     width: 100%;
 }
-.toggle img{
-    border-radius: 10px;
-    height: 50px;
-    width: 50px;
-    margin-left: 20px;
-}
-.modal{
-    height: 500px;
-    width: 400px;
-    background-color: #30336b;
+
+.mainParent{
+    display: none;
+    background-color: white;
     border: 1px solid black;
+    position: relative;
+    top: -300px;
+}
+.heading{
+    padding: 10px;
+    color: aliceblue;
+    width: none;
+}
+.signup{
+    display: flex;
+    justify-content: space-between;
+    background-color: #30336b;
+}
+i{
+    color: aliceblue;
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.innerForm{
+    margin: 20px;
+}
+input{
+    width: 100%;
+}
+.nav{
+    list-style: none;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 100px;
 }
