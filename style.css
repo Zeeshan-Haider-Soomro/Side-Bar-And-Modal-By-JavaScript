@@ -86,3 +86,10 @@ input{
 .subject{
     position: absolute;
 }
+.footer{
+    background-color: black;
+    color: aliceblue;
+    width: 100vw;
+    text-align: center;
+}
+
